@@ -16,4 +16,9 @@ public class HomeContoller {
 	public String getGreet() {
 		return "DAs spring  boot app";
 	}
+	
+	@GetMapping("/bye")
+	public String getBye() {
+		return "DAs spring  boot bye app";
+	}
 }
